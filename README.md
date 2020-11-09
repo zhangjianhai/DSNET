@@ -9,15 +9,7 @@ Now, the paper is underreviewing.
 
 requirements:
 
-if tensorflow == 1.x
-
-import tensorflow as tf
-
-if tensorflow == 2.x
-
-import tensorflow.compat.v1 as tf
-
-tf.disable_v2_behavior()
+tensorflow == 1.14.0
 
 scipy==1.1.0
 
