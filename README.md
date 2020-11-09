@@ -1,4 +1,4 @@
-# DSNET
+# DS-NET
 
 Please refer to the paper: Disentangling Style on Dynamic Aligned Poses for Person Identication
 
