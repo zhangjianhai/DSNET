@@ -4,6 +4,21 @@ Please refer to the paper: Disentangling Style on Dynamic Aligned Poses for Pers
 
 Now, the paper is underreviewing.
 
+
+#--------------------------------------------------
+requirements:
+
+if tensorflow == 1.x
+import tensorflow as tf
+
+if tensorflow == 2.x
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+scipy==1.1.0
+keras==2.2.0
+
+#--------------------------------------------------
 usage:
 
 if you want to train the auto-encoder(AE) net from scratch, then just set the line in 'flag_train=True' demo_cnn.py as:
