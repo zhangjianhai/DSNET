@@ -30,7 +30,7 @@ If you download the trained model from https://drive.google.com/drive/folders/11
 
 use:
 
-        !python demo_cnn.py
+    !python demo_cnn.py
 
 In so doing, I think you should reproduce the same results in the paper, no matter to use the trained model or to train by yourself.
     
