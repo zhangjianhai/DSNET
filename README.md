@@ -34,7 +34,11 @@ if you want to train the auto-encoder(AE) net from scratch, then just set the li
     
 Or, if you want to use the trained AE parameters, you should download the model from https://drive.google.com/drive/folders/1-MJjJv8iX2Rkz-hZXaQuQGI6SM-HMp1A?usp=sharing. and set 'flag_train=False' as well.
     
-If you download the trained model from https://drive.google.com/drive/folders/11VJVmkWJ6y79o1Omkng-YDtpVFcWENwQ?usp=sharing,or you will train the DS-NET from scratch. 
+If you download the trained model from https://drive.google.com/drive/folders/11VJVmkWJ6y79o1Omkng-YDtpVFcWENwQ?usp=sharing, or you will train the DS-NET from scratch. 
+
+use:
+
+        !python demo_cnn.py
 
 In so doing, I think you should reproduce the same results in the paper, no matter to use the trained model or to train by yourself.
     
